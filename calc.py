@@ -9,7 +9,7 @@ w,h = 1600,900
 white = (255,255,255)
 skyblue = (0,255,255)
 
-class KARAN_COMPUTES:
+class ARI_COMPUTES:
     def __init__(self):
         gui.init()
         gui.font.init()
@@ -197,4 +197,4 @@ class KARAN_COMPUTES:
         self.engine.say(txt)
         self.engine.runAndWait()
 
-t = KARAN_COMPUTES()
+t = ARI_COMPUTES()
